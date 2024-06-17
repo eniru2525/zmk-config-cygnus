@@ -5,6 +5,7 @@ type: shield
 requires: [pro_micro]
 features:
   - keys
+  - underglow
 siblings:
-  - cygnus
-  - cygnus
+  - cygnus_left
+  - cygnus_right
