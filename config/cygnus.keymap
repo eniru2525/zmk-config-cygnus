@@ -63,7 +63,7 @@
                 , <&macro_release &ltq 1 SPACE>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(300,100,50)>;
         };
-    }
+    };
 
     behaviors {
         hm: homerow_mods {
