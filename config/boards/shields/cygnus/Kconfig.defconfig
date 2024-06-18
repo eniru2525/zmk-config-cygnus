@@ -1,4 +1,4 @@
-if SHIELD_ALMOND_CAKE_LEFT
+if SHIELD_CYGNUS_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Cygnus"
