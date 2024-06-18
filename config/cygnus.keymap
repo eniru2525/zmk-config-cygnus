@@ -30,12 +30,12 @@
             tap-ms = <0>;
             bindings =
                 <&macro_press>,
-                <&ltq 1 SPACE>,
+                <&mo 1>,
                 <&macro_tap>,
                 <&rgb_ug RGB_COLOR_HSB(35,100,50)>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&ltq 1 SPACE>,
+                <&mo 1>,
                 <&macro_tap>,
                 <&rgb_ug RGB_COLOR_HSB(240,50,30)>;
       };
