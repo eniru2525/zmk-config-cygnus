@@ -36,7 +36,7 @@
                 <&macro_release>,
                 <&ltq 1 SPACE>,
                 <&macro_tap>,
-                <&rgb_ug RGB_COLOR_HSB(240,0,0)>;
+                <&rgb_ug RGB_COLOR_HSB(0,0,0)>;
         };
 
         mrc_mo2: mrc_mo2 {
@@ -63,12 +63,12 @@
                 <&macro_press>,
                 <&ltq 2 BACKSPACE>,
                 <&macro_tap>,
-                <&kp>,
-                <&macro_press>,
-                <&macro_press>,
-                <&kp>,
-                <&macro_press>,
-                <&kp>;
+                <&rgb_ug RGB_COLOR_HSB(166,100,57)>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&ltq 2 BACKSPACE>,
+                <&macro_tap>,
+                <&rgb_ug RGB_COLOR_HSB(0,0,0)>;
 
             label = "MRC_LTQ_2_BKSP";
         };
