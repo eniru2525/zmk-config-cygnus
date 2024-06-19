@@ -134,7 +134,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "gui_mo2";
             #binding-cells = <0>;
-            bindings = <&kp LWIN>, <&mo 2>;
+            bindings = <&kp LWIN>, <&mrc_mo2>;
         };
 
         as: auto_shift {
