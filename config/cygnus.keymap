@@ -55,6 +55,23 @@
 
             label = "MRC_MO2";
         };
+
+        mrc_ltq_2_bksp: mrc_ltq_2_bksp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&ltq 2 BACKSPACE>,
+                <&macro_tap>,
+                <&kp>,
+                <&macro_press>,
+                <&macro_press>,
+                <&kp>,
+                <&macro_press>,
+                <&kp>;
+
+            label = "MRC_LTQ_2_BKSP";
+        };
     };
 
     combos {
