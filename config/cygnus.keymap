@@ -191,7 +191,7 @@
 &kp Q                             &kp W        &kp E                  &kp R  &kp T            &kp Y                                &kp U  &kp I                &kp O                    &kp P
 &hm LCTRL A                       &kp S        &kp D                  &kp F  &kp G            &kp H                                &kp J  &kp K                &kp L                    &td1
 &hm LEFT_SHIFT Z                  &kp X        &kp C                  &kp V  &kp B            &kp N                                &kp M  &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH
-                  &kp LEFT_SHIFT         &td2         &mrc_ltq_1_spc         &mrc_ltq_2_bksp  &mrc_ltq_4_del  &hm RIGHT_SHIFT ESC
+                  &kp LEFT_SHIFT         &td2         &ltq 1 SPACE         &ltq 2 BACKSPACE  &ltq 4 DEL  &hm RIGHT_SHIFT ESC
             >;
         };
 
