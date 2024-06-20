@@ -188,9 +188,9 @@
 
         basic {
             bindings = <
-&kp Q                             &kp W        &kp E                  &kp R  &kp T            &kp Y                                &kp U  &kp I                &kp O                    &kp P
-&hm LCTRL A                       &kp S        &kp D                  &kp F  &kp G            &kp H                                &kp J  &kp K                &kp L                    &td1
-&hm LEFT_SHIFT Z                  &kp X        &kp C                  &kp V  &kp B            &kp N                                &kp M  &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH
+&kp Q                             &kp W        &kp E                &kp R  &kp T             &kp Y                            &kp U  &kp I                &kp O                    &kp P
+&hm LCTRL A                       &kp S        &kp D                &kp F  &kp G             &kp H                            &kp J  &kp K                &kp L                    &td1
+&hm LEFT_SHIFT Z                  &kp X        &kp C                &kp V  &kp B             &kp N                            &kp M  &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH
                   &kp LEFT_SHIFT         &td2         &ltq 1 SPACE         &ltq 2 BACKSPACE  &ltq 4 DEL  &hm RIGHT_SHIFT ESC
             >;
         };
@@ -206,10 +206,10 @@
 
         left_arrow_right_num {
             bindings = <
-&as TILDE GRAVE           &trans                    &kp UP               &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &as UNDERSCORE MINUS         &as AMPERSAND N7          &as ASTERISK N8       &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0
-&kp CAPSLOCK              &kp LEFT_ARROW            &kp DOWN             &kp RIGHT                    &kp PAGE_UP                    &as PLUS EQUAL               &as DOLLAR N4             &as PERCENT N5        &as CARET N6             &kp BSPC
-&trans                    &trans                    &kp HOME             &kp END                      &kp PAGE_DOWN                  &as PIPE BACKSLASH           &as EXCLAMATION NUMBER_1  &as AT_SIGN NUMBER_2  &as HASH NUMBER_3        &kp DOT
-                 &kp TAB                  &kp LALT            &kp ENTER                               &trans                         &to 3                 &mo 5
+&as TILDE GRAVE           &trans                     &kp UP               &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &as UNDERSCORE MINUS         &as AMPERSAND N7          &as ASTERISK N8       &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0
+&kp CAPSLOCK              &kp LEFT_ARROW             &kp DOWN             &kp RIGHT                    &kp PAGE_UP                    &as PLUS EQUAL               &as DOLLAR N4             &as PERCENT N5        &as CARET N6             &kp BSPC
+&rgb_ug RGB_TOG           &rgb_ug RGB_EFF            &kp HOME             &kp END                      &kp PAGE_DOWN                  &as PIPE BACKSLASH           &as EXCLAMATION NUMBER_1  &as AT_SIGN NUMBER_2  &as HASH NUMBER_3        &kp DOT
+                 &kp TAB                   &kp LALT            &kp ENTER                               &trans                         &to 3                 &mo 5
             >;
         };
 
