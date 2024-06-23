@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/rgb.h>
 
 &mt {
     tapping-term-ms = <200>;
@@ -20,8 +19,6 @@
 };
 
 / {
-    
-
     combos {
         compatible = "zmk,combos";
 
@@ -99,7 +96,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "gui_mo2";
             #binding-cells = <0>;
-            bindings = <&kp LWIN>, <&mrc_mo2>;
+            bindings = <&kp LWIN>, <&mo 2>;
         };
 
         as: auto_shift {
@@ -137,10 +134,10 @@
 
         left_arrow_right_num {
             bindings = <
-&as TILDE GRAVE           &trans                     &kp UP               &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &as UNDERSCORE MINUS         &as AMPERSAND N7          &as ASTERISK N8       &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0
-&kp CAPSLOCK              &kp LEFT_ARROW             &kp DOWN             &kp RIGHT                    &kp PAGE_UP                    &as PLUS EQUAL               &as DOLLAR N4             &as PERCENT N5        &as CARET N6             &kp BSPC
-&rgb_ug RGB_TOG           &rgb_ug RGB_EFF            &kp HOME             &kp END                      &kp PAGE_DOWN                  &as PIPE BACKSLASH           &as EXCLAMATION NUMBER_1  &as AT_SIGN NUMBER_2  &as HASH NUMBER_3        &kp DOT
-                 &kp TAB                   &kp LALT            &kp ENTER                               &trans                         &to 3                 &mo 5
+&as TILDE GRAVE           &trans                    &kp UP               &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &as UNDERSCORE MINUS         &as AMPERSAND N7          &as ASTERISK N8       &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0
+&kp CAPSLOCK              &kp LEFT_ARROW            &kp DOWN             &kp RIGHT                    &kp PAGE_UP                    &as PLUS EQUAL               &as DOLLAR N4             &as PERCENT N5        &as CARET N6             &kp BSPC
+&trans                    &trans                    &kp HOME             &kp END                      &kp PAGE_DOWN                  &as PIPE BACKSLASH           &as EXCLAMATION NUMBER_1  &as AT_SIGN NUMBER_2  &as HASH NUMBER_3        &kp DOT
+                 &kp TAB                  &kp LALT            &kp ENTER                               &trans                         &to 3                 &mo 5
             >;
         };
 
